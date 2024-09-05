@@ -6,6 +6,7 @@ An assortment of configuration files for various pieces of software.
 ### Includes configs for:
 - nvim
 - zsh
+- kitty
 
 *Limit your expectations...*
 
