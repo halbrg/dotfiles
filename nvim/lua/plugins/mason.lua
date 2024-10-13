@@ -6,7 +6,8 @@ return {
     opts = {
         ensure_installed = {
           "rust_analyzer",
-	  "jdtls"
+          "jdtls",
+          "clangd"
         }
     } 
   },
@@ -16,7 +17,7 @@ return {
     opts = {
       ensure_installed = {
         "javadbg",
-	"codelldb"
+        "codelldb"
       }
     }
   }
