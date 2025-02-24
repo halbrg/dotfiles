@@ -9,7 +9,7 @@ bindkey -e
 autoload -Uz compinit
 compinit
 
-alias ls='eza -lg --smart-group --icons'
+alias ls='eza -lg --smart-group --icons auto'
 alias grep='grep --color=auto'
 
 precmd() {
@@ -17,7 +17,7 @@ precmd() {
 }
 
 prompt() {
-  PS1=$'%B%F{black}%K{white} \uf415 %n@%m %F{white}%K{black}\ue0b0 \ueaf7 %~ %F{black}%k\ue0b0%b%f '
+  PS1=$'%B%F{black}%K{white} \uf415 %n@%m %F{white}%K{black}\ue0b0 \ueaf7 %~ %F{black}%k\ue0b0%b%f\n'
   RPS1=$'%B%F{white}\ue0b2%F{black}%K{white} \uf43a%@ '
 }
 
