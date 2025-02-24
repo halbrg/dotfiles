@@ -9,4 +9,4 @@ opt.expandtab = true
 opt.tabstop = 4
 opt.shiftwidth = 4
 
-vim.cmd.colorscheme("catppuccin-macchiato")
+vim.cmd.colorscheme("gruvbox")
